@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-dark bg-primary mb-3">
+            <a href="#" class="navbar-brand">devfinder</a>
+            <h1 class="close">CLOSE<i class="fas fa-times"></i></h1>
+        </nav>
+        
+        <div class="container searchContainer">
+            <div class="search card card-body">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchUser" class="form-control" placeholder="Search Github Username...">
+                </div>
+                <button type="submit" class="submit-btn">Search</button>
+            </div>
+            <br>
+           
+        </div>
+        <div id="notFound"></div>
+        <div id="profile">
+        </div>
+
+        
+    </main>
+    <footer>
+        @Copyright DevFinder 2021 coded by Wilma Alemios
+    </footer>
+    <script src="./src/github.js"></script>
+    <script src="./src/ui.js"></script>
+    <script src="./src/app.js"></script>
+</body>
+</html>
